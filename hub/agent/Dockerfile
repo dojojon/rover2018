@@ -4,4 +4,6 @@ COPY . /srv
 
 WORKDIR /srv
 
+RUN npm install
+
 CMD ["node", "index.js"]

@@ -4,3 +4,5 @@ services:
     ports:
      - "1883:1883"
     image: mbixtech/arm32v7-mosquitto
+  agent:
+    build: ./agent
